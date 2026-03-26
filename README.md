@@ -32,12 +32,13 @@ This project demonstrates **real-world backend concepts** such as:
 ## 📂 Project Structure
 
 ```
-app/
-├── main.py          # App entry point
+├──TaskPulse/
+  ├──app/
+  ├── models.py        # SQLAlchemy models
+  ├── schemas.py       # Pydantic schemas
+  ├── routes.py        # API routes
 ├── database.py      # Database setup
-├── models.py        # SQLAlchemy models
-├── schemas.py       # Pydantic schemas
-├── routes.py        # API routes
+├── main.py          # App entry point
 ├── scheduler.py     # Background job logic
 ```
 
